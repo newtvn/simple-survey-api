@@ -19,7 +19,7 @@ The Entity-Relationship Diagram (ERD) represents the database schema used by the
 - **SurveyResponse**: Records the responses submitted by users, linked to the `User` entity via `UserID`. Attributes include `ResponseID`, `Description`, `ProgrammingStack`, and `Timestamp`.
 - **Certificate**: Keeps track of files uploaded by users as part of their survey response, associated with `SurveyResponse` via `ResponseID`. Attributes include `CertificateID`, `FilePath`, and `UploadDate`.
 
-![ERD Diagram](path-to-erd-diagram-image)
+![ERD Diagram](https://lucid.app/lucidchart/6169a6fd-5900-4e6e-ad3a-eb7a7e6af23d/edit?viewport_loc=16%2C-995%2C2048%2C826%2C0_0&invitationId=inv_bd840f23-aff4-499f-8272-3c8355205cbb)
 
 ## Database SQL File
 
