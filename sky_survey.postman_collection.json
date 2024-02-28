@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "9a763154-9042-482b-bf4d-d76723f3c02f",
+		"name": "sky_survey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33194409"
+	},
+	"item": [
+		{
+			"name": "responses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/simple_survey_client/api.php"
+			},
+			"response": []
+		},
+		{
+			"name": "uploads",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/simple_survey_client/uploads/"
+			},
+			"response": []
+		}
+	]
+}
